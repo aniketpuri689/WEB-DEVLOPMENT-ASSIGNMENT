@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>12 - CSS Box Model</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 12: CSS Box Model</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li>Every tag is treated as a rectangular box with 4 layers (inside to outside):
+            <ol>
+                <li><strong>Content:</strong> The actual text or photo.</li>
+                <li><strong>Padding:</strong> Space <em>inside</em> the box (between text and border).</li>
+                <li><strong>Border:</strong> Outline line around the box.</li>
+                <li><strong>Margin:</strong> Space <em>outside</em> the box (distance from other elements).</li>
+            </ol>
+        </li>
+        <li><strong>box-sizing:</strong>
+            <ul>
+                <li><code>content-box</code> (Default): Padding and border make the box bigger than width you set!</li>
+                <li><code>border-box</code>: Padding and border stay <em>inside</em> the width you set. Much better!</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Demonstration:</h3>
+    <div class="box-demo">
+        I am a box with 10px margin, 2px border, and 15px padding!
+    </div>
+
+    <div class="border-box-demo">
+        I am width 250px with <code>box-sizing: border-box</code>. My size stays exactly 250px!
+    </div>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

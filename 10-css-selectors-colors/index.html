@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10 - CSS Selectors & Colors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 10: CSS Selectors &amp; Colors</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><strong>Element selector:</strong> <code>p { ... }</code> (changes all p tags).</li>
+        <li><strong>Class selector:</strong> <code>.my-class { ... }</code> (starts with a dot, can be reused on any tag).</li>
+        <li><strong>ID selector:</strong> <code>#my-id { ... }</code> (starts with a hash, only for one unique element).</li>
+        <li><strong>Attribute selector:</strong> <code>input[type="text"] { ... }</code>.</li>
+        <li><strong>Grouping:</strong> <code>h4, h5 { ... }</code> (comma separated).</li>
+        <li><strong>Colors:</strong>
+            <ul>
+                <li>Named: <code>red</code>, <code>blue</code></li>
+                <li>HEX: <code>#ff0000</code></li>
+                <li>RGB: <code>rgb(255, 0, 0)</code></li>
+                <li>RGBA: <code>rgba(255, 0, 0, 0.4)</code> (has transparency)</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Demonstration:</h3>
+    <p>Normal paragraph styled by element selector.</p>
+    <p class="green-class">Styled by class selector (.green-class).</p>
+    <p id="unique-id">Styled by unique ID selector (#unique-id).</p>
+    
+    <div class="color-demo-hex">Color using HEX (#ff9800)</div>
+    <div class="color-demo-rgba">Color using RGBA (transparent blue)</div>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

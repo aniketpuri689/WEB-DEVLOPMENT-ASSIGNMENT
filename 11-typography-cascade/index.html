@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>11 - Typography & Cascade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 11: CSS Typography &amp; Cascade</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><code>font-family</code>: Sets font (e.g. Arial, Georgia, Courier). Always put fallback like <code>sans-serif</code>.</li>
+        <li><code>font-size</code>: Text size (px).</li>
+        <li><code>font-weight: bold;</code> makes text bold.</li>
+        <li><code>text-align</code>: <code>left</code>, <code>center</code>, <code>right</code>.</li>
+        <li><code>line-height</code>: Spacing between lines (e.g. 1.6).</li>
+        <li><strong>Cascade &amp; Specificity:</strong> If two CSS rules fight for the same element, who wins?
+            <br>Inline style (1000) &gt; ID (100) &gt; Class (10) &gt; Element tag (1). Highest points win!
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>1. Typography Examples:</h3>
+    <p class="serif-text">Georgia serif font with 18px size and line-height 1.8.</p>
+    <p class="mono-text">Courier monospace font with letter-spacing 2px.</p>
+
+    <hr>
+
+    <h3>2. Specificity Demo (ID vs Class):</h3>
+    <!-- In CSS, ID gives green (100 pts) and Class gives red (10 pts). Green wins! -->
+    <p id="winner-id" class="loser-class">
+        This line has both class (red) and ID (green). It turns GREEN because ID has higher points!
+    </p>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

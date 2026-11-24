@@ -1,0 +1,28 @@
+/* External CSS for 18-js-dom */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.count-box {
+    font-size: 24px;
+    font-weight: bold;
+    border: 2px solid #333;
+    padding: 6px 14px;
+    display: inline-block;
+    margin-bottom: 8px;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+#myText {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 320px;
+    font-weight: bold;
+}

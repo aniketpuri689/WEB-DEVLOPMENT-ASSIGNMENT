@@ -1,0 +1,41 @@
+/* External CSS for 10-css-selectors-colors */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Element selector */
+p {
+    color: #333;
+}
+
+/* Class selector */
+.green-class {
+    color: green;
+    font-weight: bold;
+}
+
+/* ID selector */
+#unique-id {
+    color: blue;
+    border-left: 3px solid blue;
+    padding-left: 6px;
+}
+
+/* Colors demo */
+.color-demo-hex {
+    background-color: #ff9800;
+    color: white;
+    padding: 6px;
+    margin: 6px 0;
+    width: 250px;
+}
+
+.color-demo-rgba {
+    background-color: rgba(33, 150, 243, 0.3);
+    color: #0d47a1;
+    border: 1px solid #2196f3;
+    padding: 6px;
+    margin: 6px 0;
+    width: 250px;
+}

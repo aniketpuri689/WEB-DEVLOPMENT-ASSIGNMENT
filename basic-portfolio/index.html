@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniket's Basic Student Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Syllabus Index</a></p>
+
+    <!-- HEADER -->
+    <header class="portfolio-header">
+        <h1>Aniket Sharma</h1>
+        <p>1st Year Computer Science Student &bull; Learning Frontend Web Development</p>
+    </header>
+
+    <!-- ABOUT ME -->
+    <section class="portfolio-section">
+        <h2>About Me</h2>
+        <p>Hello! I am a beginner student learning how to build web pages using HTML, CSS, and basic JavaScript. This is my simple handwritten portfolio where I showcase what I have practiced so far in my college web development classes.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="portfolio-section">
+        <h2>My Skills</h2>
+        <ul>
+            <li><strong>HTML5:</strong> Document structure, text tags, lists, tables, and forms.</li>
+            <li><strong>CSS3:</strong> Box model, selectors, typography, flexbox, and basic hover transitions.</li>
+            <li><strong>JavaScript:</strong> Variables, if-else conditionals, loops, functions, and simple DOM manipulation.</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="portfolio-section">
+        <h2>Practical Projects I Made</h2>
+        <div class="project-item">
+            <h3>1. College Admission Form</h3>
+            <p>A complete HTML form using all input varieties (text, email, password, radio, checkbox, dropdown, and file upload).</p>
+            <p><a href="../07-html-forms/index.html">View Form &rarr;</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>2. College Timetable &amp; Marksheet</h3>
+            <p>An HTML table practicing thead, tbody, tfoot, and merging cells with rowspan and colspan.</p>
+            <p><a href="../06-html-tables/index.html">View Timetable &rarr;</a></p>
+        </div>
+
+        <div class="project-item">
+            <h3>3. Click Counter &amp; Color Switcher</h3>
+            <p>A basic interactive JavaScript DOM project with increment/decrement counter and color change buttons.</p>
+            <p><a href="../18-js-dom/index.html">View DOM Project &rarr;</a></p>
+        </div>
+    </section>
+
+    <!-- CONTACT FORM -->
+    <section class="portfolio-section">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent!');">
+            <p>
+                <label for="cName">Your Name:</label><br>
+                <input type="text" id="cName" required>
+            </p>
+            <p>
+                <label for="cEmail">Your Email:</label><br>
+                <input type="email" id="cEmail" required>
+            </p>
+            <p>
+                <label for="cMsg">Message:</label><br>
+                <textarea id="cMsg" rows="3" cols="30" required></textarea>
+            </p>
+            <p>
+                <input type="submit" value="Send Message">
+            </p>
+        </form>
+    </section>
+
+    <footer>
+        <p><small>&copy; 2026 Aniket Sharma. Basic Student Portfolio.</small></p>
+    </footer>
+
+    <p><a href="../index.html">&larr; Back to Syllabus Index</a></p>
+
+</body>
+</html>

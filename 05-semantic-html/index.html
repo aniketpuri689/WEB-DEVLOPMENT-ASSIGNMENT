@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>05 - Semantic HTML</title>
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 05: Semantic HTML Elements</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><strong>Semantic</strong> means tags that describe what they contain, instead of using normal <code>&lt;div&gt;</code> for everything.</li>
+        <li>Good for screen readers (for blind users) and search engines (SEO).</li>
+        <li>Tags we learned:
+            <ul>
+                <li><code>&lt;header&gt;</code>: Top banner or title area.</li>
+                <li><code>&lt;nav&gt;</code>: Links menu.</li>
+                <li><code>&lt;main&gt;</code>: Main center content (only one main per page).</li>
+                <li><code>&lt;section&gt;</code>: A group of related stuff.</li>
+                <li><code>&lt;article&gt;</code>: A stand-alone story or blog post.</li>
+                <li><code>&lt;aside&gt;</code>: Side box or extra notes.</li>
+                <li><code>&lt;footer&gt;</code>: Bottom footer with copyright.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Example of Semantic Layout (without CSS):</h3>
+
+    <header>
+        <h2>College Student Notice Board</h2>
+        <p>Department of Computer Science</p>
+    </header>
+
+    <nav>
+        <p>Navigation: <a href="#">Home</a> | <a href="#">Notices</a> | <a href="#">Contact</a></p>
+    </nav>
+
+    <main>
+        <section>
+            <h3>Latest News</h3>
+            
+            <article>
+                <h4>HTML Class Test</h4>
+                <p>There will be a short practical viva next Monday during lab hours.</p>
+            </article>
+
+            <article>
+                <h4>Sports Day</h4>
+                <p>Register names with the physical education teacher before Friday.</p>
+            </article>
+        </section>
+
+        <aside>
+            <h4>Side Note:</h4>
+            <p>Library timing is 9 AM to 4 PM.</p>
+        </aside>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2026 Student Class Practice</small></p>
+    </footer>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

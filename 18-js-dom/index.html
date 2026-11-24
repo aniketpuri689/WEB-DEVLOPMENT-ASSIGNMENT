@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>18 - JavaScript DOM Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 18: JavaScript DOM Basics</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><strong>DOM:</strong> Document Object Model. Browser treats HTML tags as objects that JS can find and change.</li>
+        <li><strong>Selectors we learned in class:</strong>
+            <ul>
+                <li><code>document.getElementById("myId")</code>: Finds one element by its ID.</li>
+                <li><code>document.getElementsByClassName("myClass")</code>: Finds elements by class name.</li>
+                <li><code>document.querySelector(".myClass")</code>: Finds first match using CSS selector.</li>
+                <li><code>document.querySelectorAll("p")</code>: Finds all matching tags.</li>
+            </ul>
+        </li>
+        <li>Changing text: <code>element.innerText = "new text"</code></li>
+        <li>Changing style: <code>element.style.color = "red"</code></li>
+        <li>Click action: <code>element.onclick = function() { ... }</code></li>
+        <li><strong>Boundary rule:</strong> NO async code (no promises, no fetch, no async/await).</li>
+    </ul>
+
+    <hr>
+
+    <!-- REAL USE MINI PROJECT -->
+    <h2>Practical Project: Simple Click Counter &amp; Color Switcher</h2>
+
+    <h3>1. Attendance Click Counter (+ and - buttons):</h3>
+    <div id="counter" class="count-box">0</div>
+    <br>
+    <button id="addBtn">+ Increase</button>
+    <button id="minusBtn">- Decrease</button>
+    <button id="resetBtn">Reset</button>
+
+    <hr>
+
+    <h3>2. Change Text &amp; Color with DOM:</h3>
+    <p id="myText">Click a button to change my color using JavaScript DOM!</p>
+    <button id="redBtn">Make Red</button>
+    <button id="blueBtn">Make Blue</button>
+    <button id="greenBtn">Make Green</button>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <!-- External script -->
+    <script src="script.js"></script>
+</body>
+</html>

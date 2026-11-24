@@ -1,0 +1,18 @@
+/* External CSS for 09-css-basics */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+}
+
+h1 {
+    color: #003366;
+}
+
+.sample-p {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    border: 1px solid #81c784;
+    padding: 10px;
+    width: 300px;
+}

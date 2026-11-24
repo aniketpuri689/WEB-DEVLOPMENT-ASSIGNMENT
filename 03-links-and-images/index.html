@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>03 - Links & Images</title>
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 03: Links &amp; Images</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><code>&lt;a href="..."&gt;</code> is an anchor tag to make links.</li>
+        <li><code>target="_blank"</code> makes the link open in a new tab.</li>
+        <li><strong>Absolute Link:</strong> Full link with https:// (e.g. to Google).</li>
+        <li><strong>Relative Link:</strong> Link to our own file on computer (e.g. <code>../index.html</code>).</li>
+        <li><code>mailto:</code> link opens email app.</li>
+        <li><code>&lt;img&gt;</code> has no closing tag.
+            <ul>
+                <li><code>src</code>: Where the picture is saved.</li>
+                <li><code>alt</code>: Text description if picture doesn't load (mandatory).</li>
+                <li><code>width</code> and <code>height</code>: Sets size in pixels.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>Link Examples:</h3>
+    <p>External link: <a href="https://www.google.com" target="_blank">Open Google in new tab</a></p>
+    <p>Internal link: <a href="../02-html-structure-text/index.html">Go to Topic 02</a></p>
+    <p>Email link: <a href="mailto:student@example.com">Send an email</a></p>
+
+    <hr>
+
+    <h3>Image Examples:</h3>
+    <p>Simple image with width and height:</p>
+    <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='60'><rect width='120' height='60' fill='%232196f3'/><text x='15' y='35' fill='white' font-family='Arial' font-size='12'>Sample Pic</text></svg>" alt="Sample blue box" width="120" height="60">
+
+    <p>Broken image to test alt text:</p>
+    <img src="missing-pic.jpg" alt="[Picture could not load: Aniket's photo]">
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

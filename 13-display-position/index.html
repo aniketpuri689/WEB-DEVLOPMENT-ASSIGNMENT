@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>13 - Display & Positioning</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 13: CSS Display &amp; Positioning</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><strong>Display:</strong>
+            <ul>
+                <li><code>block</code>: Takes full line width (div, p).</li>
+                <li><code>inline</code>: Sits on same line, width/height don't work (span, a).</li>
+                <li><code>inline-block</code>: Sits on same line, BUT we can give width and height!</li>
+                <li><code>none</code>: Hides element.</li>
+            </ul>
+        </li>
+        <li><strong>Positioning:</strong>
+            <ul>
+                <li><code>static</code>: Normal order.</li>
+                <li><code>relative</code>: Moves slightly from its normal spot using top/left.</li>
+                <li><code>absolute</code>: Pinned inside parent element having <code>position: relative</code>.</li>
+                <li><code>fixed</code>: Glued to screen, stays even when scrolling.</li>
+                <li><code>sticky</code>: Sticks when scrolled to top.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h3>1. Display Demo:</h3>
+    <div class="block-box">Block element (100% width)</div>
+    <span class="inline-box">Inline 1</span>
+    <span class="inline-box">Inline 2</span>
+    <div class="inline-block-box">Inline-Block (custom width)</div>
+
+    <hr>
+
+    <h3>2. Positioning Demo (Relative parent + Absolute child):</h3>
+    <div class="parent-relative">
+        Parent (position: relative)
+        <div class="child-absolute">
+            Child (position: absolute; top: 5px; right: 5px;)
+        </div>
+    </div>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

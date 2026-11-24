@@ -1,0 +1,32 @@
+/* External CSS for 16-transforms-transitions */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* 1. Skew transform */
+.skew-box {
+    display: inline-block;
+    background-color: #fbc02d;
+    padding: 8px 16px;
+    font-weight: bold;
+    transform: skewX(-15deg);
+    margin: 10px 0;
+}
+
+/* 2. Hover transition */
+.hover-btn {
+    padding: 8px 16px;
+    background-color: #1976d2;
+    color: white;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    /* Smooth transition */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.hover-btn:hover {
+    transform: scale(1.1) rotate(5deg);
+    background-color: #0d47a1;
+}

@@ -1,0 +1,47 @@
+/* External CSS for 13-display-position */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.block-box {
+    display: block;
+    background-color: #ffcdd2;
+    padding: 6px;
+    margin: 4px 0;
+}
+
+.inline-box {
+    display: inline;
+    background-color: #c8e6c9;
+    padding: 4px;
+}
+
+.inline-block-box {
+    display: inline-block;
+    background-color: #bbdefb;
+    padding: 6px;
+    width: 220px;
+    text-align: center;
+}
+
+/* Relative & Absolute */
+.parent-relative {
+    position: relative;
+    width: 280px;
+    height: 100px;
+    background-color: #eeeeee;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.child-absolute {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #e53935;
+    color: white;
+    font-size: 11px;
+    padding: 3px 6px;
+}

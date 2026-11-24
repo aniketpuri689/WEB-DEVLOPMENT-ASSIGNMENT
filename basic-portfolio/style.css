@@ -1,0 +1,68 @@
+/* External CSS for basic student portfolio */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+    color: #222;
+    line-height: 1.5;
+}
+
+.portfolio-header {
+    background-color: #e3f2fd;
+    border: 1px solid #90caf9;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.portfolio-header h1 {
+    margin: 0;
+    color: #0d47a1;
+}
+
+.portfolio-section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.portfolio-section h2 {
+    color: #1565c0;
+    margin-top: 0;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.project-item {
+    background-color: #f9f9f9;
+    border-left: 3px solid #1976d2;
+    padding: 8px 12px;
+    margin: 10px 0;
+}
+
+.project-item h3 {
+    margin: 0 0 4px 0;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 260px;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+input[type="submit"] {
+    padding: 6px 14px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    color: #777;
+    margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+/* External CSS for 11-typography-cascade */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.serif-text {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.mono-text {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 2px;
+}
+
+/* Specificity Battle: ID (100) vs Class (10) */
+.loser-class {
+    color: red;
+}
+
+#winner-id {
+    color: green;
+    font-weight: bold;
+}

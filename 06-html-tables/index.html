@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>06 - HTML Tables</title>
+</head>
+<body>
+
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+    <h1>Topic 06: HTML Tables</h1>
+
+    <h3>Notes from Class:</h3>
+    <ul>
+        <li><code>&lt;table border="1"&gt;</code> starts the table. (Teacher told us border="1" makes lines visible in pure HTML).</li>
+        <li><code>&lt;tr&gt;</code> = Table Row.</li>
+        <li><code>&lt;th&gt;</code> = Table Header (bold and centered).</li>
+        <li><code>&lt;td&gt;</code> = Table Data cell.</li>
+        <li>Structure tags: <code>&lt;thead&gt;</code>, <code>&lt;tbody&gt;</code>, <code>&lt;tfoot&gt;</code>.</li>
+        <li><code>colspan="2"</code>: Merges columns horizontally.</li>
+        <li><code>rowspan="2"</code>: Merges rows vertically.</li>
+    </ul>
+
+    <hr>
+
+    <!-- REAL USE MINI PROJECT: COLLEGE TIMETABLE & MARKSHEET -->
+    <h2>Practical Project: College Timetable &amp; Marksheet</h2>
+
+    <h3>1. First Semester Marksheet</h3>
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Subject Code</th>
+                <th>Subject Name</th>
+                <th>Marks (Max 100)</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CS101</td>
+                <td>Web Fundamentals</td>
+                <td>92</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>CS102</td>
+                <td>C Programming</td>
+                <td>84</td>
+                <td>Pass</td>
+            </tr>
+            <tr>
+                <td>CS103</td>
+                <td>Engineering Maths</td>
+                <td>88</td>
+                <td>Pass</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" align="right"><strong>Total Marks:</strong></td>
+                <td><strong>264 / 300</strong></td>
+                <td><strong>Pass</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <h3>2. Weekly Class Timetable (with Rowspan &amp; Colspan)</h3>
+    <table border="1" cellpadding="6" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Day</th>
+                <th>9:00 - 10:00</th>
+                <th>10:00 - 11:00</th>
+                <th>11:00 - 12:00</th>
+                <th>12:00 - 1:00</th>
+                <th>1:00 - 3:00</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Monday</strong></td>
+                <td>Maths</td>
+                <td>HTML</td>
+                <td>C Language</td>
+                <td rowspan="2" align="center"><strong>LUNCH BREAK</strong></td>
+                <td>Computer Lab</td>
+            </tr>
+            <tr>
+                <td><strong>Tuesday</strong></td>
+                <td colspan="2" align="center">Workshop on Web Basics</td>
+                <td>English</td>
+                <td>Library</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+    <p><a href="../index.html">&larr; Back to Index</a></p>
+
+</body>
+</html>

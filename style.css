@@ -1,0 +1,77 @@
+/* External CSS for Root Index Hub */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #fafafa;
+    color: #222;
+}
+
+header {
+    background-color: #f0f4f8;
+    border: 1px solid #c2d1e0;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #003366;
+    margin: 0 0 6px 0;
+    font-size: 24px;
+}
+
+.intro-box {
+    background-color: #fffde7;
+    border: 1px solid #ffd54f;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #bbb;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+th {
+    background-color: #e2e8f0;
+    color: #1a202c;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.topic-link {
+    display: inline-block;
+    background-color: #0066cc;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 4px 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.topic-link:hover {
+    background-color: #004c99;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
